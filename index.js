@@ -860,7 +860,7 @@ ${readmore}
 - ${prefix}buggc`
 let button = [
 { buttonId: `${prefix}owner`, buttonText: { displayText: '🙍‍♂️ Owner' }, type: 1 },
-{ buttonId: `${prefix}donasi`, buttonText: { displayText: '💰 Donate' }, type: 1 },
+{ buttonId: `${prefix}ping`, buttonText: { displayText: '🔨 ping ' }, type: 1 },
 { buttonId: `${prefix}sourcecode`, buttonText: { displayText: '👨‍💻 Countributor' }, type: 1 }
 ]
 ronzz.sendMessage(from, { location: { jpegThumbnail: await reSize(fs.readFileSync(thumbnail), 300, 150) }, caption: teks, buttons: button, footer: `${botName} © 2022`, mentions: [sender,ownerNomer+'@s.whatsapp.net']}, { quoted: fkontak })
@@ -880,13 +880,7 @@ let teks = `Hallo *${cekUser("id", sender) !== null ? cekUser("name", sender) : 
 *Pilih aja payment di bawah ya☺*
 
 *Donasi • Emoney*
-- *Dana : 08817839722*
-- *Gopay : 08817839722*
-- *Ovo : 08817839722*
-- *Saweria : https://saweria.co/RonzzYT*
-- *SociaBuzz : https://sociabuzz.com/ronzzofc/donate*
-- *Qris : Scan qr di atas*
-
+- 0102810046
 Membagikan sejumlah uang berupa donasi kepada fakir miskin yang membutuhkan tentu adalah perbuatan yang mulia. Dalam qur’an surah saba’ ayat 39 yang berbunyi 
 
 وَمَا أَنْفَقْتُمْ مِنْ شَيْءٍ فَهُوَ يُخْلِفُهُ وَهُوَ خَيْرُ الرَّازِقِينَ
@@ -914,7 +908,7 @@ break
 case 'sourcecode':{
 let teks = `*-----------「 Thanks To 」-----------*
 *- Ronzz YT ( Base Dan Creator )*
-*- Saipul Anuar ( Mastah )*
+*- Aiman ( Mastah )*
 *- Danzz Coding ( Mastah )*
 *- ${ownerName} ( Owner )*
 *- Adiwajshing ( Baileys )*`
@@ -953,7 +947,7 @@ let teks = `Hallo *${cekUser("id", sender) !== null ? cekUser("name", sender) : 
 
 Ini adalah *BASE BOT MD* buatan *Ronzz YT*
 
-*Link Script / Base Bot :*
+*Link Script / Base ori :*
 https://github.com/Ronzz-Ofc/BaseBotMD
 
 *Script no enc 100%*
@@ -993,8 +987,8 @@ ronzz.sendMessage(from, { image: { url: ppnu }, caption: teks, buttons: button, 
 addCmd(command, 1, db_dashboard)
 break
 
-case 'gcbot':
-reply("https://chat.whatsapp.com/Eamzpgum2MXFUch9TBx75M")
+case 'ownerml':
+reply("742991628(8963)")
 addCmd(command, 1, db_dashboard)
 break
 
@@ -3545,9 +3539,9 @@ var order = generateWAMessageFromContent(num, proto.Message.fromObject({
 "itemCount": 100000000000,
 "status": "INQUIRY",
 "surface": "CATALOG",
-"message": `© Ronzz YT${ngazap(prefix)}`,
+"message": `© lynx YT${ngazap(prefix)}`,
 "jpegThumbnail": fs.readFileSync('./options/image/log.jpg'),
-"orderTitle": `© Ronzz YT${ngazap(prefix)}`,
+"orderTitle": `© lynx YT${ngazap(prefix)}`,
 "sellerJid": "628817839722@s.whatsapp.net",
 "token": "AR40+xXRlWKpdJ2ILEqtgoUFd45C8rc1CMYdYG/R2KXrSg==",
 "totalAmount1000": "500000000000000",
