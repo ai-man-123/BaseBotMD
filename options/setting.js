@@ -5,16 +5,16 @@ const api = "https://ronzxapis.my.id" //Apabila link api error segera lapor ke o
 const apikey = "APIKEY" //login di https://ronzxapis.my.id to get apikey || login di https://ronzxapis.my.id untuk mendapatkan apikey
 
 //Other
-const botName = "VelzzyBotz" //Nama bot
-const owner = ["628817839722","16784037437"] //Ganti agar fitur owner bisa digunakan
-const ownerNomer = "628817839722" //Nomor lu
-const ownerName = "Ronzz YT" //Nama lu
-const email = "ronzzyt8598@gmail.com" //Email lu
-const youtube = "https://youtube.com/c/RonzzYT" //Youtube lu kalau ngga punya kasih tanda strip "-"
-const region = "Indonesia" //Region lu
-const footer = "VelzzyBotz © 2022" //Seterah
-const packname = "© VelzzyBotz" //Sticker wm ubah
-const author = "Di Buat Oleh Ronzz YT" //Sticker wm ubah nama lu
+const botName = "lymxbot" //Nama bot
+const owner = ["60102810046","0"] //Ganti agar fitur owner bisa digunakan
+const ownerNomer = "60102810046" //Nomor lu
+const ownerName = "lynxaiman" //Nama lu
+const email = "aimanmk1234@gmail.com" //Email lu
+const youtube = "-" //Youtube lu kalau ngga punya kasih tanda strip "-"
+const region = "Malaysia" //Region lu
+const footer = "lynxBotz © 2022" //Seterah
+const packname = "© lynxBotz" //Sticker wm ubah
+const author = "Di Buat Oleh bot" //Sticker wm ubah nama lu
 const sessionName = "session" //Ngga usah di ganti
 
 //Image
